@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Playlist | Life's Too Short</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📻 Life's Too Short</h1>
+        <nav>
+                <a href="index.html">Home </a>  
+                <a href="Cool Stuff.html">Cool Stuff </a>
+                <a href="Find Me Here.html">Find Me Here </a>
+                <a href="Mailing list.html"> Mailing List</a>
+                <a href="segments.html"> Show Segments</a>
+                <a href="playlist.html"> Playlist</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Tonight's High-Energy Playlist</h2>
+        <p>Life's too short for slow tracks. See what your DJ has queued up for the next hour, or suggest your own song to add to the broadcast queue.</p>
+        
+        <div class="interactive-box">
+            <h3>Add a Song Request</h3>
+            <input type="text" id="songInput" placeholder="Enter Song Title and Artist...">
+            <button id="addSongBtn">Submit Request</button>
+        </div>
+
+        <div class="interactive-box">
+            <h3>Up Next on Air</h3>
+            <!-- Container where JS will dynamically inject the array list -->
+            <div id="playlistContainer"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Life's Too Short 88.9FM Irvine</p>
+    </footer>
+
+    <!-- Link to external JS for this page -->
+    <script src="playlist.js"></script>
+</body>
+</html>

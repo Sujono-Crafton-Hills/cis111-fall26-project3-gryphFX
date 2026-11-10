@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Segments | Life's Too Short</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📻 Life's Too Short</h1>
+        <nav>
+                <a href="index.html">Home </a>  
+                <a href="Cool Stuff.html">Cool Stuff </a>
+                <a href="Find Me Here.html">Find Me Here </a>
+                <a href="Mailing list.html"> Mailing List</a>
+                <a href="segments.html"> Show Segments</a>
+                <a href="playlist.html"> Playlist</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>What's Happening on the Show?</h2>
+        <p>Pick your current mood or interest below to find out which radio segment you should tune in for!</p>
+        
+        <div class="interactive-box">
+            <label for="moodSelect">How are you feeling right now?</label>
+            <select id="moodSelect">
+                <option value="bored">Bored & Uninspired</option>
+                <option value="stressed">Stressed & Overworked</option>
+                <option value="energetic">Energetic & Ready to Move</option>
+            </select>
+            <button id="findSegmentBtn">Find My Segment</button>
+            
+            <div id="segmentOutput" class="output-display">
+                Select your mood above to reveal your segment recommendation.
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Life's Too Short 88.9FM Irvine</p>
+    </footer>
+
+    <!-- Link to external JS for this page -->
+    <script src="segments.js"></script>
+</body>
+</html>

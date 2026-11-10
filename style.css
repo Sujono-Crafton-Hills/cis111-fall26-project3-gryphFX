@@ -1,0 +1,9 @@
+body{ 
+    background-color:crimson;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header {
+    background-color: rgb(252, 251, 251);
+    padding: 20px;
+}
